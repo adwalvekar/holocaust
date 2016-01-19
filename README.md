@@ -14,6 +14,31 @@ When the user(non admin) wants to load the available events, it is required that
 <br>
 <br>
 <h2>Form data format</h2>
-*SPACE FOR FORM DATA*
+Sample Form data :
+{
+	"form_data": [
+        {
+            "type": "textbox",
+            "label": "Registration Number"
+            "placeholder": "Nothing"
+        },
+        {
+            "type": "checkbox",
+            "label": "Programming languages you know?",
+            "values": "C++,Java,Python"
+        },
+        {
+            "type": "radiobutton",
+            "label": "Had Coffee?",
+            "values": "Yes,No"
+        },
+{
+            "type": "radiobutton",
+            "label": "Member?",
+            "values": "Yes,No"
+        }
+    ]
+}
+
 <h2>Status Codes</h2>
-Status codes for everything is  very simple. True if action output/status is true, else false. 
+Status codes for everything is very simple. True if action output/status is true, else false. 
