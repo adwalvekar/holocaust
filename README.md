@@ -1,4 +1,4 @@
-<h1>IECSE HOLOCAUST</h1>
+<h1><center>IECSE HOLOCAUST</center></h1>
 <br><h2>Usage</h2>
 <br>This is the backend to the Node Webkit front end which is an offline data storage and UI for registrations. 
 <br>The process is that the User first logs in with admin password to be able to make an event. The event
