@@ -15,6 +15,7 @@ When the user(non admin) wants to load the available events, it is required that
 <br>
 <h2>Form data format</h2>
 Sample Form data :<br>
+<pre>
 <br>{
 <br>	"form_data": [
 <br>        {
@@ -39,6 +40,7 @@ Sample Form data :<br>
 <br>        }
 <br>    ]
 <br>}
+</pre>
 
 <h2>Status Codes</h2>
 Status codes for everything is very simple. True if action output/status is true, else false. 
