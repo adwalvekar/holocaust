@@ -1,0 +1,23 @@
+{
+	"form_data": [
+        {
+            "type": "textbox",
+            "label": "Registration Number"
+        },
+        {
+            "type": "checkbox",
+            "label": "Programming languages you know?",
+            "values": "C++,Java,Python"
+        },
+        {
+            "type": "radiobutton",
+            "label": "Had sex with wally before?",
+            "values": "Yes,No"
+        },
+{
+            "type": "radiobutton",
+            "label": "Member?",
+            "values": "Yes,No"
+        }
+    ]
+}
