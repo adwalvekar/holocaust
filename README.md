@@ -12,6 +12,8 @@ When the user(non admin) wants to load the available events, it is required that
 <br> button to the server which prompts the user to enter the password. On successful verification, the recorded data is sent
 <br>to the server in form of JSON. The backend deciphers this code and stores into the database.
 <br>
+<br>The Backend removes all special charecters and replaces spaces with under scores
+<br>
 <br>
 <h2>Form data format</h2>
 Sample Form data :<br>
