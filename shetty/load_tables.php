@@ -11,4 +11,3 @@ if ($r){
  	echo json_encode($a);
  	echo '}';
 }
-mysqli_close($link);

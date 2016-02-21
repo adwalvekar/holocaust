@@ -18,7 +18,7 @@ if (isset($_SESSION['password'])){
 				$r= mysqli_query($link,$q);
 				$s = $_POST['form_data'];
 				$json = json_decode($s,true);
-				if($json!=NULL){ 
+				if($json!=NULL){
 					$content=$json['fields'];
 					$z='';
 					$s='';
@@ -42,14 +42,14 @@ if (isset($_SESSION['password'])){
 
 							}
 							$label=clean($content[$i]['label']);
-							$s = $s .$label. " VARCHAR(1000) ";
+							$s = $s .$label. " ENUM($z) ";
 							if(sizeof($content)-$i>1){
 								$s=$s. ",";
 							}
 							break;
 							case 'radiobutton':
 							$label=clean($content[$i]['label']);
-							$s = $s . $label. " VARCHAR(1000)";
+							$s = $s . $label. " ENUM('yes','no')";
 							if(sizeof($content)-$i>1){
 								$s=$s. ",";
 							}
